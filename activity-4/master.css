@@ -1,0 +1,58 @@
+html {
+	font-family: "Libre Baskerville", serif;
+}
+
+.product {
+	display: flex;
+	flex-direction: row;
+}
+
+.product-description {
+	width: 70%;
+}
+
+.product img {
+	width: 90%;
+	transition: all 300ms;
+}
+
+.product img:hover {
+	width: 100%;
+}
+
+figure {
+	text-align: center;
+	font-weight: bold;
+	transition: all 300ms;
+}
+
+table {
+	text-align: center;
+}
+th,
+td {
+	border: 1px solid black;
+	padding: 8px;
+}
+
+th {
+	background-color: lightgrey;
+}
+
+.reviews-section {
+	margin-top: 84px;
+	padding-left: 16px;
+}
+
+.review {
+	width: 70%;
+	display: flex;
+	margin-bottom: 32px;
+	border-bottom: 1px solid black;
+}
+
+.review img {
+	width: 64px;
+	height: 64px;
+	margin: 16px;
+}
