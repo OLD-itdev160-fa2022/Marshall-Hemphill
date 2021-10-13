@@ -1,0 +1,54 @@
+html {
+	font-family: "Open Sans", sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 64px;
+}
+
+#hero-author,
+#hero-date {
+	margin-top: -16px;
+}
+
+header h1 {
+	/* text-align: center; */
+}
+
+header img {
+	width: 60%;
+	/* align-self: center; */
+}
+
+.packageContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.package {
+	margin-bottom: 84px;
+	padding: 20px 64px;
+}
+
+.package:first-child {
+	margin-top: 84px;
+}
+
+.package:nth-child(2n) {
+	background-color: rgb(233, 233, 233);
+}
+
+.package img {
+	width: 50%;
+}
+
+.packAuthor,
+.packStars {
+	margin-top: -16px;
+}
