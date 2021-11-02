@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+	font-family: "Zen Antique", serif;
+}
+
+header {
+	width: 100%;
+}
+
+.hero-container {
+	width: 100%;
+	height: 100vh;
+
+	background-image: url(images/hero-image2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.hero {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.514);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 2rem;
+}
+
+.hero-desc {
+	margin-top: 24px;
+	margin-bottom: 2em;
+}
+
+button {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid white 3px;
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	background-color: transparent;
+}
+
+.arrow {
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 8px;
+	transform: rotate(45deg);
+}
+
+.nav-list {
+	width: 100%;
+	height: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.nav-list li {
+	list-style-type: none;
+	text-align: center;
+	width: 25%;
+}
+
+.nav-list a {
+	color: white;
+	display: block;
+	padding: 1rem;
+	text-decoration: none;
+	font-size: 1.2rem;
+	background-color: rgb(95, 12, 12);
+	transition: all 300ms;
+}
+
+.nav-list a:focus,
+.nav-list a:hover {
+	background-color: rgb(75, 10, 10);
+}
+
+.menu-container {
+	margin-top: 5rem;
+	width: 100%;
+}
+
+.menu-container h2 {
+	text-align: center;
+	margin-top: 5rem;
+	margin-bottom: 2rem;
+	font-size: 2rem;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.food-menu,
+.beverage-menu,
+.dessert-menu {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-evenly;
+}
+
+.food-item,
+.beverage-item,
+.dessert-item {
+	margin-bottom: 32px;
+
+	display: flex;
+	flex-direction: column;
+	flex-basis: 33.333333%;
+	text-align: center;
+
+	border: solid rgb(95, 12, 12) 2px;
+}
+
+.food-name,
+.beverage-name,
+.dessert-name {
+	width: 100%;
+	padding: 8px 0px 8px 0px;
+	color: white;
+	background-color: rgb(95, 12, 12);
+	align-self: flex-start;
+}
+
+.food-desc,
+.beverage-desc {
+	padding: 1rem;
+}
+
+.food-price,
+.beverage-price,
+.dessert-price {
+	padding-bottom: 1rem;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 15em;
+	width: 100%;
+	margin-top: 5em;
+	background-color: rgb(95, 12, 12);
+}
+
+table {
+	color: white;
+	font-size: 1.3rem;
+	text-align: center;
+}
+
+table a {
+	color: white;
+}
+
+td,
+th {
+	padding: 1.3rem;
+}
