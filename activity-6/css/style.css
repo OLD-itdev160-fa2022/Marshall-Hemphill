@@ -1,0 +1,33 @@
+body {
+	font-family: "Roboto Slab", serif;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.messages {
+	overflow-y: scroll;
+	min-height: 15rem;
+	max-height: 15rem;
+	width: 80%;
+	border: solid black 1px;
+	margin-bottom: 16px;
+	padding: 4px;
+	font-size: 18px;
+}
+
+.out-message {
+	color: blue;
+}
+
+button {
+	width: 80px;
+	background-color: rgb(58, 115, 240);
+	color: white;
+	border-radius: 8px;
+	cursor: pointer;
+}
