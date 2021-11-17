@@ -1,0 +1,28 @@
+body {
+	text-align: center;
+}
+
+#todo-list-container {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-around;
+	width: 60%;
+}
+
+#active-list,
+#completed-list {
+	width: 10rem;
+	min-height: 5rem;
+	border: solid black 1px;
+}
+
+#active-list li:hover {
+	cursor: pointer;
+	background-color: rgb(228, 226, 226);
+}
+
+#completed-list {
+	text-decoration: line-through;
+}
