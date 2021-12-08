@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookMark</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header id="header">
+        <div class="div hero-container">
+
+            <div class="hero-content">
+                <img src="images/book.png" />
+                <h1>BookMark</h1>
+                <p>Keep track of your stories!</p>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><button id="reading">Reading now</button></li>
+                    <li><button id="saved">Saved for later</button></li>
+                    <li><button id="read">Read Books</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    </header>
+
+    <main>
+        <div class="list-container" id="list-container"></div>
+
+        <img class="add-icon" id="add-icon" src="images/addIcon.svg" alt="">
+
+        <fieldset id="new-book" class="new-book">
+            <div class="field">
+                <label id="name-label" for="name">Title</label>
+                <input type="text" name="name" id="name-input" required>
+            </div>
+
+            <div class="field">
+                <label id="author-label" for="author">Author</label>
+                <input type="text" name="author" id="author-input">
+            </div>
+
+            <div class="field">
+                <label id="genre-label" for="genre">Genre</label>
+                <input type="text" name="genre" id="genre-input">
+            </div>
+
+            <div class="field">
+                <label for="list-selection" id="list-selection-label">Book Status</label>
+                <select name="list-selection" id="list-selection">
+                    <option value="reading">Currently reading</option>
+                    <option value="saved">Save for later</option>
+                    <option value="read">Already read</option>
+                </select>
+            </div>
+
+            <div class="form-buttons">
+                <button id="cancel-button">Cancel</button>
+
+                <button type="submit" id="submit-button">Submit</button>
+            </div>
+        </fieldset>
+
+
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Merriweather", serif;
+}
+
+header {
+    background-color: rgb(180, 180, 180);
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.hero-content img {
+    height: 5rem;
+    width: 10rem;
+}
+
+.hero-content p {
+    margin-top: 8px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+li {
+    background-color: grey;
+    display: block;
+    width: 36%;
+}
+
+button {
+    width: 100%;
+    padding: 1rem 0rem;
+    cursor: pointer;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    max-width: 12rem;
+    min-width: 12rem;
+    min-height: 15rem;
+
+    border: solid black 3px;
+}
+
+.card-info {
+    border-top: solid black 2px;
+    margin-top: 8px;
+}
+
+.card img {
+    width: 10rem;
+}
+
+.title {
+    font-weight: bold;
+    margin: 8px 0px;
+}
+
+.card p {
+    margin-bottom: 3px;
+}
+
+.add-icon {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    transition: all 300ms;
+}
+
+.add-icon:hover,
+.add-icon:focus {
+    width: 70px;
+    height: 70px;
+}
+
+.new-book {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.329);
+    display: none;
+}
+
+.new-book.active {
+    display: flex;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+.field input {
+    height: 1.3rem;
+    padding-left: 6px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 20rem;
+}
+
+.form-buttons button {
+    width: 8rem;
+}
